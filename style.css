@@ -158,4 +158,7 @@ h5{
     .contact-button{
       margin: 10%;
     }
+      .container{
+      padding: 0;
+    }
   }
