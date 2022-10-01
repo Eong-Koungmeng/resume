@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight&family=Montserrat&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <title>Koungmeng's site</title>
+  <!-- icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!--font awesome-->
+  <script src="https://kit.fontawesome.com/599c3f30bd.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <section class="bg-black" id="title">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid firstpage">
+        <a class="navbar-brand" href="index.html">
+          Koungmeng
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://koungmengeong.blogspot.com/" target="_blank">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <div class="row about-text">
+
+      <div class="col-lg-6 my-auto">
+        <h1 class="big-heading">I'm Koungmeng.</h1>
+        <h1 class="small-heading">an IT Engineer.</h1>
+        <a href="#contact" class="btn btn-outline-light btn-lg download-button"><i
+            class="fa-regular fa-address-book"></i> Contact</a>
+        <a href="https://drive.google.com/file/d/1_FEoAItO9382jdAiaUwTvcNzPM3Bcx4D/view?usp=sharing" target="_blank" class="btn btn-light btn-lg download-button"><i class="fa-regular fa-circle-down"></i>
+          Download CV</a>
+
+      </div>
+
+      <div class="col-lg-6  my-auto">
+        <img class="title-image img-thumbnail rounded mx-auto d-block " src="images/profile.png" alt="koungmeng">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="white-bg aboutme" id="about">
+
+    <div class="big-heading font-weight-bold">About Me</div>
+    <div class="about-me-text small-heading">I'm an IT Engineering student at RUPP. <br>My area of interests are Game
+      Development and Machine Learning.</div>
+  </section>
+
+  <section class="grey-bg aboutme" id="projects">
+
+    <div class="big-heading font-weight-bold">My Projects</div>
+    <div class="projectss ">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4 col-lg-6 col-md-12">
+          <div class="card h-100">
+            <img src="images/GuessTheFace.jpg" class="card-img-top" alt="guess the face">
+            <div class="card-body">
+              <h5 class="card-title font-weight-bold">Guess The Face</h5>
+              <p class="card-text">A game written in python, where player can guess the face.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4 col-lg-6 col-md-12"">
+              <div class=" card h-100">
+          <img src="images/GraphicEngine.jpg" class="card-img-top" alt="GraphicEngine">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">OpenGL Graphic Engine</h5>
+            <p class="card-text">Graphic Engine made in C++ and OpenGL made to learn concepts.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4 col-lg-6 col-md-12"">
+              <div class=" card h-100">
+        <img src="images/EarthEscape.jpg" class="card-img-top" alt="EarthEscape">
+        <div class="card-body">
+          <h5 class="card-title font-weight-bold">Earth Escape</h5>
+          <p class="card-text">A game I made in Scratch, where player plays as Earth trying to reach objective.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4 col-lg-6 col-md-12"">
+              <div class=" card h-100">
+      <img src="images/Arduino.jpg" class="card-img-top" alt="arduino">
+      <div class="card-body">
+        <h5 class="card-title font-weight-bold">Turn ON/OFF Light with Claps</h5>
+        <p class="card-text">Made with Arduino, these electrical components can response to sound and turn ON/OFF LED.
+        </p>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="white-bg aboutmefoot" id="contact">
+
+    <div class="big-heading font-weight-bold">Contact Me</div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col"><a href="https://t.me/Koungmeng" target="_blank" class="btn btn-outline-dark btn-lg contact-button"><i class="fa-brands fa-telegram"></i> Telegram</a></div>
+        <div class="col"><a href="mailto:koungmeng200@gmail.com" target="_blank" class="btn btn-dark btn-lg contact-button"><i class="fa-solid fa-envelope"></i> Email</a></div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="footing">
+      <a class="invis" href="https://www.youtube.com/channel/UC2fdB0QEvBtFUXYpL3VjwOA" target="_blank"><i class="social-icon fa-brands fa-youtube fa-lg"></i></a>
+      <a class="invis" href="https://github.com/Eong-Koungmeng" target="_blank"><i class="social-icon fa-brands fa-github fa-lg"></i></a>
+      <p class="last">©Copyright   Eong Koungmeng</p>
+      
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
